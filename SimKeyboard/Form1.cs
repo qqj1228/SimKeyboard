@@ -118,7 +118,7 @@ namespace SimKeyboard {
                 }
                 // 取消附加的线程
                 AttachThreadInput(dwForeThreadId, dwSelfThreadId, false);
-                this.lblInfo.Text = "已发送：" + this.cmbBoxInput.Text;
+                this.lblInfo.Text = "已发送：\n" + this.cmbBoxInput.Text;
             }
             // SendKeys必须在本程序主窗口或子窗口处于激活状态下才有效，
             // 例如使用MessageBox.Show()先强制用户激活本程序子窗口

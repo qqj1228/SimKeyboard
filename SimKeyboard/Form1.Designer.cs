@@ -40,7 +40,7 @@
             this.grpBoxHotKey.Controls.Add(this.txtBoxHotKey);
             this.grpBoxHotKey.Location = new System.Drawing.Point(13, 13);
             this.grpBoxHotKey.Name = "grpBoxHotKey";
-            this.grpBoxHotKey.Size = new System.Drawing.Size(409, 45);
+            this.grpBoxHotKey.Size = new System.Drawing.Size(459, 45);
             this.grpBoxHotKey.TabIndex = 0;
             this.grpBoxHotKey.TabStop = false;
             this.grpBoxHotKey.Text = "全局热键";
@@ -51,7 +51,7 @@
             this.txtBoxHotKey.Location = new System.Drawing.Point(3, 17);
             this.txtBoxHotKey.Name = "txtBoxHotKey";
             this.txtBoxHotKey.ReadOnly = true;
-            this.txtBoxHotKey.Size = new System.Drawing.Size(403, 21);
+            this.txtBoxHotKey.Size = new System.Drawing.Size(453, 21);
             this.txtBoxHotKey.TabIndex = 0;
             this.txtBoxHotKey.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtBoxHotKey_KeyDown);
             this.txtBoxHotKey.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtBoxHotKey_KeyUp);
@@ -59,7 +59,7 @@
             // btnStart
             // 
             this.btnStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStart.Location = new System.Drawing.Point(347, 115);
+            this.btnStart.Location = new System.Drawing.Point(397, 115);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 1;
@@ -74,7 +74,7 @@
             this.grpBoxInput.Controls.Add(this.cmbBoxInput);
             this.grpBoxInput.Location = new System.Drawing.Point(16, 64);
             this.grpBoxInput.Name = "grpBoxInput";
-            this.grpBoxInput.Size = new System.Drawing.Size(406, 45);
+            this.grpBoxInput.Size = new System.Drawing.Size(456, 45);
             this.grpBoxInput.TabIndex = 1;
             this.grpBoxInput.TabStop = false;
             this.grpBoxInput.Text = "模拟输入";
@@ -85,7 +85,7 @@
             this.cmbBoxInput.FormattingEnabled = true;
             this.cmbBoxInput.Location = new System.Drawing.Point(3, 17);
             this.cmbBoxInput.Name = "cmbBoxInput";
-            this.cmbBoxInput.Size = new System.Drawing.Size(400, 20);
+            this.cmbBoxInput.Size = new System.Drawing.Size(450, 20);
             this.cmbBoxInput.TabIndex = 0;
             // 
             // lblInfo
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 146);
+            this.ClientSize = new System.Drawing.Size(484, 161);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.grpBoxInput);
             this.Controls.Add(this.btnStart);
